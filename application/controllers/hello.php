@@ -15,7 +15,7 @@ class Hello extends CI_Controller
 	public function index()
 	{
 		$data = array();
-		$data["name"]="aa";
+		$data["name"]="aa2015";
 		$this->load->view('hello',$data);
 	}
 	
