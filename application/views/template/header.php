@@ -10,13 +10,13 @@
     <meta name="author" content="">
     <link rel="icon" href="public/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title><?php echo $title ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../../public/css/app.css" rel="stylesheet">
+    <link href="<?php echo base_url() ?>public/css/app.css" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -41,7 +41,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?php echo base_url() ?>pages/index">Home</a></li>
+                <li class="active"><a href="<?php echo base_url('pages/index') ?>">Home</a></li>
                 <li><a href="<?php echo base_url() ?>pages/about">About</a></li>
             </ul>
         </div><!--/.nav-collapse -->

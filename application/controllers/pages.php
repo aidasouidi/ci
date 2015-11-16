@@ -7,14 +7,18 @@ class Pages extends CI_Controller
 	public function _construct()
 	{ 
 		parent::_construct();
+		$dataHeader = array();
+
 	}
 
 
 	public function index()
 	{
+
 		$data = array();
 		$data["name"]="aa2017";
-		$this->load->view('template/header');
+		$dataHeader["title"] = "home";
+		$this->load->view('template/header', $dataHeader);
 		$this->load->view('pages/home',$data);
 		$this->load->view('template/footer');
 	}
@@ -23,8 +27,8 @@ class Pages extends CI_Controller
 	public function about()
 	{
 		$data = array();
-		$data["name"]="aa2015";
-		$this->load->view('template/header');
+		$dataHeader["title"]="about";
+		$this->load->view('template/header', $dataHeader);
 		$this->load->view('pages/about',$data);
 		$this->load->view('template/footer');
 	}
