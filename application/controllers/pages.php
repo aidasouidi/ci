@@ -13,7 +13,7 @@ class Pages extends CI_Controller
 	public function index()
 	{
 		$data = array();
-		$data["name"]="aa2016";
+		$data["name"]="aa2017";
 		$this->load->view('template/header');
 		$this->load->view('pages/home',$data);
 		$this->load->view('template/footer');
