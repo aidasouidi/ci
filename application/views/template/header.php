@@ -37,14 +37,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url() ?>pages/index">Project name</a>
-        </div>
+    </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo base_url('pages/index') ?>">Home</a></li>
                 <li><a href="<?php echo base_url() ?>pages/about">About</a></li>
+                <li><a href="<?php echo base_url() ?>pages/contact">Contact</a></li>
+                <li><a href="<?php echo base_url() ?>pages/map">Map</a></li>
             </ul>
         </div><!--/.nav-collapse -->
+
+
+
+
+
+
+
+
+
+
     </div>
 </nav>
 
