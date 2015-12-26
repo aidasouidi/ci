@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +39,7 @@
     </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?php echo base_url('pages/index') ?>">Home</a></li>
+                <li class="active"><a href="<?php echo base_url('pages/home') ?>">Home</a></li>
                 <li><a href="<?php echo base_url() ?>pages/about">About</a></li>
                 <li><a href="<?php echo base_url() ?>pages/contact">Contact</a></li>
                 <li><a href="<?php echo base_url() ?>pages/map">Map</a></li>

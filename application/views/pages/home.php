@@ -16,7 +16,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/cabin.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>/public/img/portfolio/cabin.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
@@ -26,7 +26,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/cake.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>public/img/portfolio/cake.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
@@ -36,7 +36,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/circus.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>/public/img/portfolio/circus.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
@@ -46,7 +46,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/game.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>/public/img/portfolio/game.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
@@ -56,7 +56,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/safe.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>/public/img/portfolio/safe.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                         <div class="col-sm-4 portfolio-item">
@@ -66,7 +66,7 @@
                                                         <i class="fa fa-search-plus fa-3x"></i>
                                                 </div>
                                         </div>
-                                        <img src="../public/img/portfolio/submarine.png" class="img-responsive" alt="">
+                                        <img src="<?php echo site_url() ?>/public/img/portfolio/submarine.png" class="img-responsive" alt="">
                                 </a>
                         </div>
                 </div>

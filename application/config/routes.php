@@ -38,8 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
-$route['404_override'] = '';
+$route['default_controller'] = "pages";
+//$route['404_override'] = '';
+
+$route['carte'] = 'pages/map'; //au lieu d'écrire pages/map il suffit d'ecrire carte
 
 
 /* End of file routes.php */

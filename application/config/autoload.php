@@ -52,9 +52,9 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','session');//1ere etape
 
-
+ 
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
@@ -64,7 +64,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url','form');//2eme etape
 
 
 /*
@@ -88,8 +88,7 @@ $autoload['config'] = array();
 |  Auto-load Language files
 | -------------------------------------------------------------------
 | Prototype:
-|
-|	$autoload['language'] = array('lang1', 'lang2');
+|ws
 |
 | NOTE: Do not include the "_lang" part of your file.  For example
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
@@ -109,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('model_user');
 
 
 /* End of file autoload.php */
